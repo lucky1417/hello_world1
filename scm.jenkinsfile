@@ -1,0 +1,7 @@
+node{
+stage('checkout scm')
+{
+git url: 'https://github.com/lucky1417/hello_world1.git'
+}
+
+}
